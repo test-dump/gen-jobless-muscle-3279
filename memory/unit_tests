@@ -1,0 +1,1 @@
+That's correct. Note that the `Main` method is a special type of function in C#. Every executable program must contain a Main method somewhere in one of its classes. The Main method is the first method to be executed when a program starts.
