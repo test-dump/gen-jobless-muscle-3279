@@ -1,0 +1,23 @@
+Here is a simple Hello World console application written in C#:
+
+```csharp
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello World!");
+    }
+}
+```
+
+Explanation:
+
+1. `using System;` - This is a using directive that brings the System namespace into scope. This namespace contains the `Console` class.
+
+2. `class Program` - This is a declaration of a new class. A class is a container for methods and data related to those methods.
+
+3. `static void Main()` - This is the Main method of the class. This is the entry point for the application.
+
+4. `Console.WriteLine("Hello World!");` - This is a method provided by the Console class in the System namespace. It prints the string given as a parameter to the console. In this case, "Hello World!" will be printed.
