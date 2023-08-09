@@ -1,0 +1,23 @@
+using NUnit.Framework;
+using System;
+using System.IO;
+
+[TestFixture]
+public class HelloWorldTest
+{
+    private StringWriter consoleOutput;
+
+    [SetUp]
+    public void SetUp()
+    {
+        consoleOutput = new StringWriter();
+        Console.SetOut(consoleOutput);
+    }
+
+    [Test]
+    public void TestHelloWorldOutput()
+    {
+        Program.Main();
+        Assert.AreEqual("Hello World!\r\n", consoleOutput.ToString());
+    }
+}
